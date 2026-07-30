@@ -1,12 +1,9 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/app",
-      "destination": "https://mia-app-streamlit.vercel.app/"
-    },
-    {
-      "source": "/app/:path*",
-      "destination": "https://mia-app-streamlit.vercel.app/:path*"
+      "destination": "https://mia-app-streamlit.vercel.app/",
+      "permanent": true
     }
   ]
 }
