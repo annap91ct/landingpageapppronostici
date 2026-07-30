@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
+      "source": "/app",
+      "destination": "https://mia-app-streamlit.vercel.app/"
+    },
+    {
       "source": "/app/:path*",
-      "destination": "https://IL-TUO-LINK-VECCHIA-APP.vercel.app/:path*"
+      "destination": "https://mia-app-streamlit.vercel.app/:path*"
     }
   ]
 }
